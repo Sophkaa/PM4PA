@@ -1,0 +1,39 @@
+{
+  "process_name": "Example Process",
+  "pools": [
+    {
+      "name": "Example Process",
+      "dataObjects": [],
+      "lanes": [
+        {
+          "name": "Applicant"
+        },
+        {
+          "name": "Case Handler"
+        }
+      ],
+      "startEvent": {
+        "name": "Start",
+        "laneIndex": 0
+      },
+      "process": [
+        {
+          "type": "task",
+          "subType": "abstract",
+          "name": "Submit application",
+          "laneIndex": 0
+        },
+        {
+          "type": "task",
+          "subType": "abstract",
+          "name": "Review application",
+          "laneIndex": 1
+        }
+      ],
+      "endEvent": {
+        "name": "Completed",
+        "laneIndex": 1
+      }
+    }
+  ]
+}

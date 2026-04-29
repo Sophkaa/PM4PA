@@ -1,0 +1,374 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 226.61161675001495
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 221.22361354203895
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 221.46928679198027
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 221.28202929196414
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 221.05519333295524
+        }
+      ]
+    },
+    {
+      "run": 6,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 221.31183533300646
+        }
+      ]
+    },
+    {
+      "run": 7,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 224.96183841698803
+        }
+      ]
+    },
+    {
+      "run": 8,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 221.49987008294556
+        }
+      ]
+    },
+    {
+      "run": 9,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 221.75086145894602
+        }
+      ]
+    },
+    {
+      "run": 10,
+      "samples": [
+        {
+          "metrics": {
+            "roles": {
+              "element_type": "roles",
+              "tp": 5,
+              "fp": 2,
+              "fn": 0
+            },
+            "activities": {
+              "element_type": "activities",
+              "tp": 10,
+              "fp": 1,
+              "fn": 7
+            },
+            "events": {
+              "element_type": "events",
+              "tp": 4,
+              "fp": 3,
+              "fn": 0
+            },
+            "gateways": {
+              "element_type": "gateways",
+              "tp": 0,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          "judge": {
+            "semantic_alignment_score": 50
+          },
+          "generation_time_seconds": 220.93035779101774
+        }
+      ]
+    }
+  ]
+}

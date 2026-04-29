@@ -1,0 +1,61 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Secrets & local env (use .env.example in repo) ---
+.env
+.env.local
+.env.*.local
+
+# --- Vector DB & local DB files ---
+chroma_db/
+*.db
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Logs & test tooling ---
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Evaluation & private  ---
+eval_output/
+eval_data/
+Final_BPMN/
+
+
+

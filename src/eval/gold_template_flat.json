@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "element_type": "pool",
+      "id": "pool_1",
+      "name": "Example Process"
+    }
+  ],
+  "lanes": [
+    {
+      "element_type": "lane",
+      "id": "lane_1",
+      "name": "Applicant"
+    },
+    {
+      "element_type": "lane",
+      "id": "lane_2",
+      "name": "Case Handler"
+    }
+  ],
+  "activities": [
+    {
+      "element_type": "activity",
+      "id": "activity_1",
+      "name": "Submit application",
+      "lane": "lane_1"
+    },
+    {
+      "element_type": "activity",
+      "id": "activity_2",
+      "name": "Review application",
+      "lane": "lane_2"
+    }
+  ],
+  "events": [
+    {
+      "element_type": "event",
+      "id": "event_start",
+      "name": "Start",
+      "lane": "lane_1"
+    },
+    {
+      "element_type": "event",
+      "id": "event_end",
+      "name": "Completed",
+      "lane": "lane_2"
+    }
+  ],
+  "gateways": [],
+  "sequence_flows": [
+    {
+      "element_type": "sequence_flow",
+      "id": "flow_1",
+      "name": "Start -> Submit application"
+    },
+    {
+      "element_type": "sequence_flow",
+      "id": "flow_2",
+      "name": "Submit application -> Review application"
+    },
+    {
+      "element_type": "sequence_flow",
+      "id": "flow_3",
+      "name": "Review application -> Completed"
+    }
+  ]
+}

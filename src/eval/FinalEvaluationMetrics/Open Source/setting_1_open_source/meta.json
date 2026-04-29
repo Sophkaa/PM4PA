@@ -1,0 +1,48 @@
+{
+  "eval_name": "setting_1_open_source",
+  "cli_args": {
+    "max_samples": 1,
+    "output": "eval_summary.json",
+    "samples_output": "per_sample_metrics.json",
+    "semantic_threshold": 0.7,
+    "setting": "setting_1",
+    "runs": 10,
+    "aggregated_output": "aggregated_statistics.json"
+  },
+  "model_configuration": {
+    "embedding_model_rag": "deepset-mxbai-embed-de-large-v1",
+    "embedding_model_semantic_matching": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "chunk_size": 800,
+    "chunk_overlap": 150,
+    "retrieval_method": "vector_only",
+    "temperature": 0.0,
+    "open_source": true,
+    "setting": "setting_1",
+    "agents": {
+      "retrieval": {
+        "model": "mistral-large:123b",
+        "description": "Query expansion and document retrieval"
+      },
+      "draft": {
+        "model": "mistral-large:123b",
+        "description": "Process draft generation"
+      },
+      "bpmn": {
+        "model": "mistral-large:123b",
+        "description": "BPMN model generation"
+      },
+      "validation": {
+        "model": "mistral-large:123b",
+        "description": "BPMN validation"
+      },
+      "relevance": {
+        "model": "mistral-large:123b",
+        "description": "Relevance assessment of retrieved chunks (used in Settings 2, 3, 4)"
+      },
+      "judge": {
+        "model": "mistral-large:123b",
+        "description": "LLM-as-a-judge evaluation (final quality assessment)"
+      }
+    }
+  }
+}

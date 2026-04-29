@@ -1,0 +1,102 @@
+{
+  "dataset_name": "eval_samples",
+  "setting": "setting_2",
+  "open_source": true,
+  "n_runs": 10,
+  "n_samples": 1,
+  "micro_precision": {
+    "mean": 0.7307692307692307,
+    "std": 0.0,
+    "n_runs": 10
+  },
+  "micro_recall": {
+    "mean": 0.6333333333333332,
+    "std": 1.1102230246251565e-16,
+    "n_runs": 10
+  },
+  "micro_f1": {
+    "mean": 0.6785714285714286,
+    "std": 1.1102230246251565e-16,
+    "n_runs": 10
+  },
+  "avg_generation_time_seconds": {
+    "mean": 222.20965027918572,
+    "std": 1.8390878850507884,
+    "n_runs": 10
+  },
+  "judge_semantic_alignment_score": {
+    "mean": 50.0,
+    "std": 0.0,
+    "n_runs": 10
+  },
+  "per_type": {
+    "roles": {
+      "precision": {
+        "mean": 0.7142857142857143,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.8333333333333333,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    },
+    "activities": {
+      "precision": {
+        "mean": 0.909090909090909,
+        "std": 1.1102230246251565e-16,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.588235294117647,
+        "std": 1.1102230246251565e-16,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.7142857142857143,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    },
+    "events": {
+      "precision": {
+        "mean": 0.5714285714285714,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.7272727272727273,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    },
+    "gateways": {
+      "precision": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    }
+  }
+}

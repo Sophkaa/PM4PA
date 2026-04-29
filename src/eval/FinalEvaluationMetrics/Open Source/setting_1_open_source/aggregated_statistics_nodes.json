@@ -1,0 +1,102 @@
+{
+  "dataset_name": "eval_samples",
+  "setting": "setting_1",
+  "open_source": true,
+  "n_runs": 10,
+  "n_samples": 1,
+  "micro_precision": {
+    "mean": 0.6956521739130433,
+    "std": 1.1102230246251565e-16,
+    "n_runs": 10
+  },
+  "micro_recall": {
+    "mean": 0.5333333333333333,
+    "std": 0.0,
+    "n_runs": 10
+  },
+  "micro_f1": {
+    "mean": 0.6037735849056605,
+    "std": 0.0,
+    "n_runs": 10
+  },
+  "avg_generation_time_seconds": {
+    "mean": 74.33070293328493,
+    "std": 1.3750558693469228,
+    "n_runs": 10
+  },
+  "judge_semantic_alignment_score": {
+    "mean": 40.0,
+    "std": 0.0,
+    "n_runs": 10
+  },
+  "per_type": {
+    "roles": {
+      "precision": {
+        "mean": 0.7142857142857143,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.8333333333333333,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    },
+    "activities": {
+      "precision": {
+        "mean": 0.8,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.47058823529411764,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.5925925925925927,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    },
+    "events": {
+      "precision": {
+        "mean": 0.5,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.75,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.5999999999999999,
+        "std": 1.1102230246251565e-16,
+        "n_runs": 10
+      }
+    },
+    "gateways": {
+      "precision": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    }
+  }
+}

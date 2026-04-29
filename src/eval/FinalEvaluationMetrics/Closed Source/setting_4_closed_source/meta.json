@@ -1,0 +1,22 @@
+{
+  "eval_name": "setting_4_closed_source",
+  "cli_args": {
+    "max_samples": 1,
+    "output": "eval_summary.json",
+    "samples_output": "per_sample_metrics.json",
+    "semantic_threshold": 0.7,
+    "setting": "setting_4",
+    "runs": 10
+  },
+  "model_configuration": {
+    "embedding_model_rag": "deepset-mxbai-embed-de-large-v1",
+    "embedding_model_semantic_matching": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "chunk_size": 800,
+    "chunk_overlap": 150,
+    "retrieval_method": "hybrid_bm25_vector",
+    "temperature": 0.0,
+    "open_source": false,
+    "setting": "setting_4",
+    "gpt_model": "gpt-4o-2024-11-20"
+  }
+}

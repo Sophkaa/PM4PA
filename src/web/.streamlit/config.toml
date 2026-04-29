@@ -1,0 +1,12 @@
+# Disable file watching (esp. in Docker). The default watcher can traverse
+# site-packages, trigger deep HuggingFace `transformers` imports, and fail with
+# ModuleNotFoundError: torchvision for optional vision submodules.
+[server]
+fileWatcherType = "none"
+
+[theme]
+primaryColor = "#2d5a87"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"

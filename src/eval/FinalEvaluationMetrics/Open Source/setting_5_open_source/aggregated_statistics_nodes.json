@@ -1,0 +1,102 @@
+{
+  "dataset_name": "eval_samples",
+  "setting": "setting_5",
+  "open_source": true,
+  "n_runs": 10,
+  "n_samples": 1,
+  "micro_precision": {
+    "mean": 0.6257844574780058,
+    "std": 0.07395999696053876,
+    "n_runs": 10
+  },
+  "micro_recall": {
+    "mean": 0.6933333333333334,
+    "std": 0.046666666666666676,
+    "n_runs": 10
+  },
+  "micro_f1": {
+    "mean": 0.6573145979703356,
+    "std": 0.0628597274867822,
+    "n_runs": 10
+  },
+  "avg_generation_time_seconds": {
+    "mean": 740.0929309000028,
+    "std": 174.2473527170514,
+    "n_runs": 10
+  },
+  "judge_semantic_alignment_score": {
+    "mean": 58.0,
+    "std": 6.0,
+    "n_runs": 10
+  },
+  "per_type": {
+    "roles": {
+      "precision": {
+        "mean": 0.9400000000000001,
+        "std": 0.18,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.9800000000000001,
+        "std": 0.05999999999999999,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.9533333333333334,
+        "std": 0.13999999999999999,
+        "n_runs": 10
+      }
+    },
+    "activities": {
+      "precision": {
+        "mean": 0.5455964325529543,
+        "std": 0.04907316880552573,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.6941176470588235,
+        "std": 0.08235294117647057,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.607017543859649,
+        "std": 0.047621158111785356,
+        "n_runs": 10
+      }
+    },
+    "events": {
+      "precision": {
+        "mean": 0.7,
+        "std": 0.15,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.775,
+        "std": 0.075,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.7150000000000001,
+        "std": 0.10499999999999998,
+        "n_runs": 10
+      }
+    },
+    "gateways": {
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "recall": {
+        "mean": 0.25,
+        "std": 0.0,
+        "n_runs": 10
+      },
+      "f1": {
+        "mean": 0.4,
+        "std": 0.0,
+        "n_runs": 10
+      }
+    }
+  }
+}

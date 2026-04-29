@@ -1,0 +1,16 @@
+# Streamlit-App. LLM/Open WebUI bzw. Azure und optional der BPMN-Layout-Service werden per .env angebunden
+# und müssen von Container/Host aus erreichbar sein (siehe README).
+services:
+  web:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      CHROMA_DB_PATH: /data/chroma
+    volumes:
+      - chroma_data:/data/chroma
+
+volumes:
+  chroma_data:
