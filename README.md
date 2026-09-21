@@ -21,15 +21,15 @@ Interaction is supported through a **Streamlit** web interface and through **com
 
 **Document ingestion.** Users can upload or select source documents (PDF, Word, text, etc.); the app ingests them into the configured Chroma collection so retrieval is grounded in the corpus.
 
-![Document Upload](images/Document%20Upload.png)
+![Document Upload](images/Document%20upload2.png)
 
 **Process modeling view.** After the documents are uploaded, the user inserts a query about the process which should be modelled based on the uploaded documents. The user can also select, if open source or closed source models should be used for generation.
 
-![Process modeler](images/Process%20modeller.png)
+![Process modeler](images/Process%20modeller2.png)
 
 **Resulting process model.** The final generated process model is displayed and can be edited and downloaded in .bpmn, .xml, .pdf, or .png format. When a modeled process element is selected, the corresponding reference aka the source document from which the process element was extracted is listed on the right, increasing transparency.
 
-![Modelled process](images/Modelled%20process.png)
+![Modelled process](images/Modelled%20process2.png)
 
 
 ## Setup
@@ -101,8 +101,6 @@ streamlit run streamlit_app.py
 Then open **http://localhost:8501** (default).
 
 #### CLI usage
-
-Default pipeline graph mirrors the main web flow unless `--setting` overrides.
 
 Ingest documents (after configuring paths/collection):
 
